@@ -1,11 +1,18 @@
 {
   "name": "iwlist-scan",
-  "version": "0.0.1",
-  "description": "Parse output from iwlist scan. Can be used for mapping wireless LANs",
+  "version": "0.0.2",
+  "description": "Parse output from `iwlist scan`. Can be used for mapping wireless LANs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tobias Thüring <dev@fet.li>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hexagon6/iwlist-scan.git"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
   "license": "ISC"
 }
